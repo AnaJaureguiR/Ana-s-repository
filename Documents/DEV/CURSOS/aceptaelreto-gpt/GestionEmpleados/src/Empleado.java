@@ -62,7 +62,7 @@ public class Empleado {
         return "Empleado{" + "ID=" + ID + ", nombre=" + nombre + ", puesto=" + puesto + ", salario=" + salario + '}';
     }
     
-    //para arreglar el fallo de cargaaa 
+    //para arreglar el fallo de carga sepador ,
     public String datosGuardar(){
         return ID + "," + nombre + "," + puesto + "," + salario;
     }
